@@ -40,7 +40,7 @@ header .heading span {
 	top: 28px;
 }
 
-button {
+button{
 	position: relative;
 	border: none;
 	background-color: black;
@@ -54,6 +54,7 @@ button img {
 }
 body {
 	background-color: black;
+	width: 1500;
 }
 
 #sidebar {
@@ -64,7 +65,7 @@ body {
 	width: 300px;
 	height: 100%;
 	background-color: black;
-	right: 1000px;
+	right: 17000px;
 	transition: .4s;
 }
 
@@ -95,4 +96,85 @@ body {
 
 .main{
 background-color: white;
+}
+
+.main .heading {
+	display: flex;
+	justify-content: center;
+}
+
+#line{
+	color: black;
+}
+
+
+.main .container1{
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.main {
+	display: block;
+}
+
+.main .container2{
+	display: flex;
+	justify-content: space-between;
+}
+
+.main .container1 img {
+	width: 250px;
+}
+
+.main .container2 img{
+	width: 250px;
+}
+
+.price {
+	font-size: 20px;
+}
+
+.main .container1 .item1 h2{
+	justify-content: center;
+}
+
+.main .container1 .trolley{
+	height: 50px;
+	width: 50px;
+	background-color: grey;
+	border-radius: 50px;
+}
+
+.main .container2 .trolley{
+	height: 50px;
+	width: 50px;
+	background-color: grey;
+	border-radius: 50px;
+}
+
+.fieldTitle{
+	display: flex;
+}
+
+.fieldNr{
+	background-color: black;
+	color: white;
+	border-radius: 20px;
+
+}
+
+.main .content fieldset span{
+	display: flex;
+	justify-content: center;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 17px;
+}
+
+.main .content fieldset {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }

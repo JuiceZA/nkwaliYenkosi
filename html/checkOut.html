@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+		<div class="socialLinks">
+			<ul>
+				<li><img src="../assets/Instagram.png" alt=""></li>
+				<li><img src="../assets/Twitter.png" alt=""></li>
+				<li><img src="../assets/facebook.png" alt=""></li>
+			</ul>
+		</div>
+		<div class="heading">
+			<h3>Nkwali <span><img src="../assets/Rhino.png" alt=""></span> Yenkosi</h3>
+		</div>
+		<div class="button" onclick="show()"><button>
+			<img src="../assets/downloadedMenu.png" alt="">
+		</button></div>
+	</header>
+	<div id = "sidebar">
+		<div class="toggle-btn">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+
+		<ul>
+			<li>Home</li>
+			<li>About and Leather</li>
+			<li>DIY & Morter</li>
+			<li>Brick & Morter</li>
+			<li>Shop Now</li>
+		</ul>
+	</div>
+    <div class="main">
+        <div class="content">
+            <h1 class = "heading">Just one more step...</h1>
+            <br>
+            <p class = "heading">before your new leather jackets can leave we need you to fill out the following form</p>
+            <fieldset>
+                <form action="">
+                    <div class="fieldTitle"><span class = fieldNr>1</span><h3>Customer Info</h3></div>
+                    <div class="firstField"><input type="text" placeholder="Your Full Name"></div>
+                    <div class="secondField"><input type="text" placeholder="Your Email"></div>
+                    <div class="thirdField"><input type="text" placeholder="Your Phone Number"></div>
+                </form>
+                <br>
+                <form action="">
+                    <div class="fieldTitle"><span class = fieldNr>2</span><h3>Shipping Details</h3></div>
+                    <div class="firstField"><input type="text" placeholder="Your street number and name"></div>
+                    <div class="secondField"><input type="text" placeholder="Your City"></div>
+                    <div class="thirdField"><input type="text" placeholder="Your Suburb"></div>
+                    <div class="province">
+                        <h5>Province:</h5>
+                        <div><select name="" id="">
+                            <option value="">Gauteng</option>
+                        </select></div>
+
+                    <div><input type="text" placeholder="Your Zip Code"></div>
+                    <div><textarea name="" id="" cols="30" rows="10" placeholder="Special Instructions"></textarea></div>
+
+                    </div>
+                </form>
+                <form action="">
+                    <div class="fieldTitle"><span class = fieldNr>3</span><h3>Billing Details</h3></div>
+                    <div><input type="text" placeholder="Name On Card"></div>
+                    <div><input type="text" placeholder="Enter Card Number"></div>
+                    <div><input type="text" placeholder="Expire date"></div>
+                    <div><input type="text" placeholder="CVV"></div>
+                </form>
+            </fieldset>
+        </div>
+    </div>
+</body>
+</html>
